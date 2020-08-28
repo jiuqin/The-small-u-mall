@@ -1,0 +1,79 @@
+{
+  "id": "1702301",
+  "name": "需要的图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "856963",
+      "name": "向右",
+      "font_class": "right",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "856964",
+      "name": "向左",
+      "font_class": "left",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "5485674",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "5485676",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "2205703",
+      "name": "购物车",
+      "font_class": "shopshoppingco",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "12476895",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "630092",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "430708",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "1089321",
+      "name": "购物车",
+      "font_class": "buoumaotubiao40",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5282526",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    }
+  ]
+}

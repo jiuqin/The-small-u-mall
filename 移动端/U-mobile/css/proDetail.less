@@ -1,0 +1,299 @@
+@import "reset";
+body{
+    background-color: #f1f1f1;
+}
+.container{
+    width: 7.5rem;
+    margin: 0 auto;  
+    padding-bottom: 1.2rem;//处理底部固定遮挡内容
+}
+.wrap{
+    width: 7.1rem;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 999;
+    width: 7.5rem;
+    height: .88rem;
+    background-color: #f26b11;
+   .wrap{
+        height: .88rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+   img{
+       width: .17rem;
+       height: .29rem;
+   }
+   h2{
+       font-size: .36rem;
+       color: #fff;
+   }
+   .points{
+       span{
+           display: inline-block;
+           margin-left: .08rem;
+           width: .12rem;
+           height: .12rem;
+           background-color: #fff;
+           border-radius: 50%;
+        }
+   }
+}
+.pic{
+    width:7.5rem;
+    height: 9.5rem;
+    background-color: #fff;
+    .img1{
+        width:7.5rem;
+        height: 4.2rem;
+        }
+    .img2{
+        width:7.5rem;
+        height: 3.27rem;
+    }
+   .info{
+       width: 6.8rem;
+       margin-top: .3rem; 
+       padding-left: .3rem;
+       font-size: .3rem;
+    .des{
+        margin-bottom: .2rem; 
+    }
+    .price{
+        margin-top: .3rem;
+        color: #e5383e;
+        span{
+            display: inline-block;
+            margin-left: .15rem;
+            font-size: .28rem;
+            color: #878787;
+        }
+    }
+   }
+}
+.buy{
+    margin-top: .2rem;
+    background-color: #fff;
+    font-size: .25rem;
+    .cuxiao{
+        position: relative;
+        height: .8rem;
+        line-height:.9rem;
+        margin-bottom: .005rem;
+        padding: .3rem .3rem;
+        border-bottom: 1px solid #f1f1f1;
+        .jian{
+            display: inline-block;
+            margin-right: .15rem;
+            line-height:.32rem;
+            padding: 0 .12rem;
+            border-radius: 0.05rem;
+            border: 1px solid #b0281a;
+            color: #b0281a;
+        }
+        img{
+            position: absolute;
+            right: .3rem;
+            top:  .65rem;
+            width: .25rem;
+            height: .15rem;
+        }
+    }
+    .count{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: .8rem;
+        padding: .3rem .3rem;
+        border-bottom: 1px solid #f1f1f1;
+       .inp{
+           display: inline-block;
+           width: 2rem;
+           height: .5rem;
+           border-radius: 0.05rem;
+           border: 1px solid #f1f1f1;
+           i{
+               display: inline-block;
+               width: .6rem;
+               height: .5rem;
+               line-height:.5rem;
+               text-align: center;
+               
+           }
+           .border-r
+           {   
+               border-right: 1px solid #f1f1f1;
+           }
+           .border-l
+           {   
+               border-left: 1px solid #f1f1f1;
+           }
+           input{
+                   width: .74rem;
+           }
+       }
+    }
+    .shuxing
+    {
+       border-bottom: none;
+        padding: .3rem 0 .1rem .3rem;
+    }
+    .guige
+    { 
+        height: .7rem;
+        padding-left: .3rem;
+        i{
+            color: #e1e1e3;
+        }
+        span{
+            border-radius: .05rem;
+            padding: 0 .3rem;
+            background-color: skyblue;
+            color: #fff;
+        }
+        .span1{
+            margin-left: .6rem;
+            background-color: #e43a3d;
+        }
+        .span2{
+            background-color:  #e1e1e3;
+        }
+    }
+}
+.produce{
+    width: 7.5rem;
+    margin-top: .2rem;
+    background-color: #fff;
+    p{
+        height: 1rem;
+        line-height: 1rem;
+        padding-left: .3rem;
+        font-size: .3rem;
+    }
+    .p1{
+        width: 7.5rem;
+        height: 4.58rem;
+    }
+    .p2{
+        width: 7.5rem;
+        height: 6.48rem;
+    }
+    .p3{
+        width: 7.5rem;
+        height:5.92rem;
+    }
+    .p4{
+        width: 7.5rem;
+        height:3.5rem;
+    }
+    .p5{
+        width: 7.5rem;
+        height:3.31rem;
+        
+    }
+   
+}
+.comment{
+   padding:0 .3rem;
+   margin-top: .3rem;
+   background-color: #fff;
+   font-size: .3rem;
+   .head{
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .3rem;
+    border-bottom: 1px solid #eeeeee ;
+   }
+   .user{
+     padding: .2rem 0;
+    border-bottom: 1px solid #eeeeee ;
+    p{
+        margin-bottom: .2rem;
+    }
+     img{
+         width: 1.5rem;
+         height: 1.5rem;
+     }
+     span{
+         color: #9a9a9a;
+     }
+   }
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem .3rem;
+    background-color: #fff;
+    color: #9a9a9a;
+    border-bottom: 1px solid #eeeeee ;
+}
+
+.fixed-bar{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    width: 7.5rem;
+    height: 1.14rem;
+    background-color: #fff;
+    .foot{
+        background-color: #fff;
+        height: 1.1rem;
+        li{
+            float: left;
+            height: 1.1rem; 
+        }
+        .shopcar{
+            position: relative;
+            box-sizing: border-box;
+            width: 1.7rem;
+            height: 1.1rem;
+            padding: 0 .2rem;
+            text-align: center;
+            padding: .2rem .3rem;
+            color: #9a9a9a;
+            i{
+                position: absolute;
+                right: .6rem;
+                top: .2rem;
+                display: block;
+                width: .2rem;
+                height: .2rem;
+                line-height: .2rem;
+                border-radius: 50%;
+                text-align: center;
+                color: #fff;
+                background-color: #e43a3d;
+                font-size: .1rem;
+                
+    
+            }
+        }
+        .icon-qicheqianlian-{
+            font-size: .4rem;
+        }
+        .btn{
+            box-sizing: border-box;
+            width: 2.9rem;
+            color: #fff;
+            padding: .2rem .3rem;
+            line-height: .7rem;
+            text-align: center;
+            font-size: .3rem;
+        }
+        .btn1{
+            background-color: #f26b11;
+        }
+        .btn2{
+            background-color: #e43a3d;
+        }
+    
+    }
+}

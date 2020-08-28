@@ -1,0 +1,189 @@
+.header {
+    height: 110px;
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.wrap {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.header li {
+    float: left;
+    line-height: 110px;
+    margin-right: 50px;
+}
+
+.header li.denglu {
+    color: #666666;
+    font-size: 24px;
+}
+
+.main {
+    width: 100%;
+    background-color: #ff6b6d;
+}
+
+.main img {
+    float: left;
+}
+
+.main .log {
+    float: right;
+    margin-top: 35px;
+    width: 340px;
+    height: 380px;
+    background-color: #fff;
+}
+
+.main .content {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.main .log .content p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.main .content .one {
+    margin-top: 10px;
+}
+
+.main .content .block {
+    position: relative;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-top: 1px solid #f36b11;
+    border-left: 1px solid #f36b11;
+    border-bottom: 1px solid #f36b11;
+}
+
+.main .content .block img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+.main .content .inp {
+    float: left;
+    width: 230px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #f36b11;
+}
+
+.main .content .block1 {
+    background-color: #fef9f6;
+}
+
+.main .content .block2 {
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-bottom: 1px solid#d6d6d6;
+    background-color: #f6f6f6;
+}
+
+.main .content .inp2 {
+    border: 1px solid #d6d6d6;
+}
+
+.main .content .inp3 {
+    width: 200px;
+    border: 1px solid #d6d6d6;
+}
+
+.main .content .number {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #f36b11;
+    border: 1px solid #f36b11;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main .content ul.choice1 {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    color: #666666;
+}
+
+.main .content ul.choice1 a {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main .content ul.choice2 {
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 50px;
+    border-top: 1px solid #d6d6d6;
+}
+
+.main .content ul.choice2 i {
+    display: block;
+    margin: 5px 5px;
+    float: left;
+    width: 5px;
+    height: 5px;
+    line-height: 5px;
+    border-radius: 50%;
+}
+
+.main .content ul.choice2 .i1 {
+    background-color: #1ba7eb;
+}
+
+.main .content ul.choice2 .i2 {
+    background-color: #e52425;
+}
+
+.main .content ul.choice2 .i3 {
+    background-color: #26d044;
+}
+
+.main .content ul.choice2 li {
+    float: left;
+    margin-right: 30px;
+    color: #666666;
+}
+
+.main .content ul.choice2 a {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 14px;
+    color: #f36b11;
+}
+
+.footer {
+    height: 120px;
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    color: #636363;
+}
+
+.footer p {
+    margin-top: 15px;
+}

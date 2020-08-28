@@ -1,0 +1,196 @@
+@import "reset";
+
+.container{
+    position: relative;
+    width: 7.5rem;
+    margin: 0 auto;
+}
+.wrap{
+    width: 7.1rem;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 999;
+    width: 7.5rem;
+    height: .88rem;
+    background-color: #f26b11;
+   .wrap{
+        height: .88rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+   img{
+       width: .17rem;
+       height: .29rem;
+   }
+   h2{
+       font-size: .36rem;
+       color: #fff;
+   }
+   .points{
+       span{
+           display: inline-block;
+           margin-left: .08rem;
+           width: .12rem;
+           height: .12rem;
+           background-color: #fff;
+           border-radius: 50%;
+        }
+   }
+}
+.content
+{
+    margin-top: .88rem;
+   
+}
+.user{
+    position: relative;
+    width: 100%;
+    height:1.8rem;
+    background-color: #f26b11;
+    .touxiang{
+        position: relative;
+        padding:.1rem  .2rem;
+        float: left; 
+        .pic{
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            background:url("../images/1.jpg");
+            background-size: contain;
+        }
+        .name{
+            position: absolute;
+            left: 2rem;
+            top: .6rem;
+            width: .8rem;
+            height: .5rem;
+            .p1{
+                margin-bottom: .1rem;
+                color: #fff;
+                font-size: .25rem;
+            }
+            .p2{
+                font-size: .25rem;
+                font-style:oblique;
+            }
+        }
+    }
+    .qiandao{
+        position: absolute;
+        right: .2rem;
+        top:.6rem;
+        padding:.1rem  .2rem;
+        float: right;
+        color: #f26b11;
+        font-size: .3rem;
+        background-color: #fff;
+       
+        border-radius: .05rem;
+        
+    }
+
+}
+.nav{
+    background-color: #fff;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.4rem;
+    color: #999;
+    font-size:.3rem;
+    text-align: center;
+    .iconfont{
+        font-size:.35rem;
+    }
+    p{
+            margin-top: .1rem;
+     }
+}
+.space{
+    width: 100%;
+    height: .2rem;
+    background-color: #f1f1f1;
+}
+.list{
+    margin-top: .2rem;
+    background-color: #fff;
+    color: #999;
+    .com{
+        position: relative;
+        padding:.1rem .2rem ;
+        height: 1rem;
+        line-height: 1rem;
+        font-size: .3rem;
+        border-bottom: 1px solid #d8d8d8;
+        span{
+            margin-right: .2rem;
+        }
+        .iconfont{
+            font-size:.35rem;
+        }
+        .icon-xiangyoujiantou{
+           position: absolute;
+           right: 0;
+           top: .15rem;
+        }
+        .icon-color{
+            color: #f26b11;
+        }
+        .count{
+            margin-left: 3.2rem;
+            color: #f26b11;
+        }
+    }
+}
+.fixed-menu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.2rem;
+    .con{
+        width: 7.5rem;
+        margin: 0 auto;
+        height: 1.2rem;
+        background-color: #fff;
+        .nav{
+            font-size: .22rem;
+            width: 6.3rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: .22rem;
+            box-sizing: border-box;
+            line-height:1.8;
+            a{
+               color: #999;
+               text-align: center;
+               i{
+                   display: block;
+                   width:.58rem;
+                   height: .58rem;
+                   background-size: contain;
+                   background-repeat: no-repeat;
+               }
+               &:first-child i{
+                   background-image: url("../images/public/icon_8.jpg");
+               }
+               &:nth-child(2) i{
+                background-image: url("../images/public/icon_7.jpg");
+               }
+               &:nth-child(3) i{
+                background-image: url("../images/public/icon_10.jpg");
+                }
+            }
+        }
+    }
+
+}

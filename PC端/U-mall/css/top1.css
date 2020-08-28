@@ -1,0 +1,142 @@
+.top {
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid #eee;
+    background: #f5f5f5;
+}
+
+.wrap {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.top .left {
+    float: left;
+}
+
+.top .left li {
+    position: relative;
+    float: left;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+}
+
+.top li.bg:hover {
+    background-color: #fff;
+    border: 1px solid #bbb;
+}
+
+.top .right {
+    float: right;
+}
+
+.top .right li {
+    float: left;
+    ;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+}
+
+
+/*向下箭头*/
+
+.top .left li .icon-xiangxiajiantou,
+.top .right li .icon-xiangxiajiantou {
+    width: 10px;
+    font-size: 10px;
+    margin-left: 3px;
+    color: #bbb;
+}
+
+
+/*北京导航图标*/
+
+.top .left .address-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 15px;
+    background: url(../images/index.png) no-repeat -387px -183px;
+    margin-right: 5px;
+}
+
+.top .left a i {
+    position: absolute;
+    top: 16px;
+    left: 55px;
+    width: 0;
+    height: 0;
+    border: 5px solid #bbb;
+    border-color: #bbb transparent transparent;
+}
+
+
+/*购物车图标*/
+
+.top .right a .icon-buoumaotubiao40 {
+    width: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f60;
+    margin-right: 5px;
+}
+
+
+/*字体初始就有颜色,鼠标经过变色*/
+
+.top ul li a.orange {
+    color: #f60;
+}
+
+.top .right li a:hover {
+    color: #f60;
+}
+
+.top .left li a.ch-orange:hover {
+    color: #f60;
+}
+
+
+/*foot页面底部*/
+
+.foot {
+    background-color: #333;
+}
+
+.foot .help {
+    padding: 30px 250px;
+    color: #969696;
+}
+
+.foot dl {
+    float: left;
+    margin-right: 100px;
+}
+
+.foot dl.last {
+    margin-right: 0;
+}
+
+.foot dt {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.foot dd {
+    margin-bottom: 10px;
+}
+
+.foot .copyright {
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 32px;
+    border-top: 1px solid #3f3f3f;
+    text-align: center;
+}
+
+.foot .copyright p {
+    line-height: 30px;
+    color: #636363;
+}

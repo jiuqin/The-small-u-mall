@@ -1,0 +1,145 @@
+      body {
+          background-color: #f6f6f6;
+      }
+      
+      .header {
+          height: 110px;
+          background-color: #fff;
+      }
+      
+      .wrap {
+          width: 1190px;
+          margin: 0 auto;
+      }
+      
+      .header li {
+          float: left;
+          line-height: 110px;
+          margin-right: 50px;
+      }
+      
+      .header li.zhuce {
+          color: #666666;
+          font-size: 24px;
+      }
+      
+      .main {
+          width: 750px;
+          height: 500px;
+          margin: 40px auto;
+          background-color: #fff;
+          border-top: 3px solid #f36b11;
+      }
+      
+      .main .content {
+          width: 380px;
+          margin: 30px auto;
+      }
+      
+      .main .content .zhanghao {
+          height: 40px;
+          text-align: center;
+          font-size: 24px;
+          color: #333333;
+      }
+      
+      .main .content .one {
+          margin-top: 25px;
+      }
+      
+      .main .content .block {
+          position: relative;
+          float: left;
+          width: 35px;
+          height: 35px;
+          border-top: 1px solid #f36b11;
+          border-left: 1px solid #f36b11;
+          border-bottom: 1px solid #f36b11;
+      }
+      
+      .main .content .block img {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          display: block;
+          margin: auto;
+      }
+      
+      .main .content .inp {
+          float: left;
+          width: 330px;
+          height: 35px;
+          padding-left: 10px;
+          border: 1px solid #f36b11;
+      }
+      
+      .main .content .tip {
+          float: left;
+          padding-top: 10px;
+          color: #f36b11;
+      }
+      
+      .main .content .block1 {
+          background-color: #fef9f6;
+      }
+      
+      .main .content .block2 {
+          border-top: 1px solid #d6d6d6;
+          border-left: 1px solid #d6d6d6;
+          border-bottom: 1px solid#d6d6d6;
+          background-color: #f6f6f6;
+      }
+      
+      .main .content .inp2 {
+          border: 1px solid #d6d6d6;
+      }
+      
+      .main .content .inp3 {
+          width: 200px;
+          border: 1px solid #d6d6d6;
+      }
+      
+      .main .content .number {
+          float: left;
+          margin: 10px 0 0 10px;
+      }
+      
+      button {
+          width: 100%;
+          height: 40px;
+          margin-top: 30px;
+          background-color: #f36b11;
+          border: 1px solid #f36b11;
+          color: #fff;
+          font-size: 24px;
+      }
+      
+      .main .content ul {
+          height: 20px;
+          margin-top: 30px;
+          padding-left: 140px;
+      }
+      
+      .main .content ul li {
+          float: left;
+          margin-right: 10px;
+      }
+      
+      .main .content ul li a {
+          color: #f36b11;
+      }
+      
+      .footer {
+          height: 120px;
+          margin-top: 40px;
+          padding-top: 30px;
+          background-color: #fff;
+          text-align: center;
+          color: #636363;
+      }
+      
+      .footer p {
+          margin-top: 15px;
+      }

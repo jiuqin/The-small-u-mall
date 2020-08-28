@@ -1,0 +1,267 @@
+@import "reset";
+body{
+    background-color: #fff;
+}
+.container{
+    width: 7.5rem;
+    margin: 0 auto;
+    padding-bottom: 1.14rem ;
+}
+.wrap{
+    width: 7.1rem;
+    margin: 0 auto;
+}
+.header{
+    // position: fixed;
+    // top:0;
+    // left: 50%;
+    // margin-left: -3.75rem;
+    // z-index: 999;
+    width: 7.5rem;
+    height: .88rem;
+    background-color: #f26b11;
+   .wrap{
+        height: .88rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+   img{
+       width: .17rem;
+       height: .29rem;
+   }
+   h2{
+       font-size: .36rem;
+       color: #fff;
+   }
+   .points{
+       span{
+           display: inline-block;
+           margin-left: .08rem;
+           width: .12rem;
+           height: .12rem;
+           background-color: #fff;
+           border-radius: 50%;
+        }
+   }
+}
+
+
+.pro-list{
+    overflow: hidden;
+    background-color: #fff;
+    .bs{
+        box-shadow: 0px 0px .2rem #e0e0e0;
+    }
+    li{
+        position: relative;
+        // display: flex;
+        // overflow: hidden;
+        padding: 0 .22rem;
+        height:1.76rem;
+       box-shadow: 0px 0px .2rem #e0e0e0;
+        margin-top: .3rem;
+        line-height: 1.76rem;
+        &.active{
+            left: -.98rem;
+        }
+        &>*{
+            display:inline-block;
+            vertical-align: middle;
+        }
+        i{
+            display: inline-block;
+            width: .34rem;
+            height: .34rem;
+            border:1px solid #b0b0b0;
+            border-radius: 50%;
+            box-sizing: border-box;
+            margin-right: .4rem;
+            &.checked{
+                border-color: #c05447;
+                background: url("../images/shoping_car_images/select.jpg") no-repeat center;
+                background-size: 70%;
+            }
+        }
+        img{
+            width: 1.02rem ;
+            height: .82rem;
+            margin-right: .34rem;
+        }
+        p{
+            line-height: 1.5;
+            span{
+                display: block;
+            }
+            .pro-name{
+                font-size: .28rem;
+                color: #333;
+            }
+            .pro-des{
+                font-size: .24rem;
+                color: #999;
+                line-height: 1.8;
+            }
+            .pro-price{
+                font-size: .26rem;
+                color: #c05447;
+            }
+        }
+        .count-group{
+            display: flex;
+            float: right;
+            width: 2.12rem;
+            height: .6rem;
+            box-sizing: border-box;
+            border: 1px solid #333;
+            border-radius: .04rem;
+            line-height: .6rem;
+            margin-top: .58rem;
+            input[type=button]{
+                flex-shrink: 0;
+                width: .62rem;
+                height: .58rem;
+                background-color: transparent;
+                font-size: .24rem;
+            }
+            input[type=text]{
+                width: .84rem;
+                flex-shrink: 1;
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;
+                font-size: .3rem;
+                text-align: center;
+            }
+        }
+        .del{
+            position: absolute;
+            right: -.98rem;
+            top: 0;
+            width: .98rem;
+            height: 1.76rem;
+            background-color: #e43a3d;
+            color: #fff;
+            font-size: .26rem;
+            text-align: center;
+        }
+    }
+}
+
+.jiesuan{
+    position: fixed;
+    bottom: 1.2rem;
+    left: 50%;
+    margin-left: -3.75rem;
+    width: 7.5rem;
+    height: 1.2rem;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    background-color: #fff;
+   .left{
+    width: 7.1rem;
+    margin: 0 auto;
+   
+     ul{
+        position: relative;
+        float: left;
+        width:100%;
+        height: 1.2rem;
+        padding-top: .4rem;
+       
+        li{
+            float: left;
+            height: 1.2rem;
+          
+        }
+        .select-all{
+            font-size: .20rem;
+            margin-right: .6rem;
+        }
+        .zongji{
+            margin-left: .6rem;
+            p{
+                margin-bottom: .1rem;
+            }
+            .p1{
+               font-size: .26rem;
+            }
+            .p2{
+                color: #989898;
+            }
+        }
+        .checked{
+            display: inline-block;
+            vertical-align: -5px;
+            width: .34rem;
+            height: .34rem;
+            border:1px solid #b0b0b0;
+            border-radius: 50%;
+            box-sizing: border-box;
+            margin-right: .2rem;
+            border-color: #c05447;
+            background: url("../images/shoping_car_images/select.jpg") no-repeat center;
+            background-size: 70%;
+         
+        }
+     }
+    
+   }
+   .btn{
+       position: absolute;
+       right: 0rem;
+       top: 0;
+       width: 2.4rem;
+       height: 1.5rem;
+       line-height: 1.2rem;
+       text-align: center;
+       color: #fff;
+       font-size: .26rem;
+       background-color: #f26b11;
+   }
+}
+
+.fixed-menu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.2rem;
+    .con{
+        width: 7.5rem;
+        margin: 0 auto;
+        height: 1.2rem;
+        background-color: #fff;
+        .nav{
+            font-size: .22rem;
+            width: 6.3rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: .22rem;
+            box-sizing: border-box;
+            line-height:1.8;
+            a{
+               color: #999;
+               text-align: center;
+               i{
+                   display: block;
+                   width:.58rem;
+                   height: .58rem;
+                   background-size: contain;
+                   background-repeat: no-repeat;
+               }
+               &:first-child i{
+                   background-image: url("../images/public/icon_8.jpg");
+               }
+               &:nth-child(2) i{
+                background-image: url("../images/public/icon_9.jpg");
+               }
+               &:nth-child(3) i{
+                background-image: url("../images/public/icon_5.jpg");
+                }
+               
+            }
+        }
+    }
+
+}

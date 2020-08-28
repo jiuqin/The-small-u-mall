@@ -1,0 +1,260 @@
+@import "reset";
+
+@m-color:#e9967a;
+@txt-white:#fff;
+/* 头部*/ 
+.header{
+    height: 60px;
+    line-height: 60px;
+   
+    h1{
+        float: left;
+        width: 220px;
+        background-color: @m-color;
+        color: @txt-white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .m-menu{
+        i{
+            font-size: 30px;
+        }
+        float: left;
+        display: none;//条纹缩小菜单初始隐藏
+    }
+    .right{
+        height: 60px;
+       float: right;
+       font-size: 18px;
+       img{
+           width: 30px;
+           height: 30px;
+       }
+       a{
+        margin-right: 30px;
+        }
+       i{
+           font-size: 25px;
+           color: #007acc;
+           font-weight: bold;
+           vertical-align: middle;
+       }
+    }
+}
+
+/* main主体*/ 
+.main{
+    /*高度由内容撑开设最小高度*/
+    min-height: 300px;
+    display: flex;
+    .menu-left{
+        width: 220px;
+        .first-menu{
+            padding-left: 10px;
+            li{
+                h3{
+                    line-height: 40px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    span{
+                      
+                        margin-right: 10px;
+                    }
+                }
+                .second-menu{
+                    display: none;
+                    padding-left: 20px;
+                    li{
+                        font-size: 14px;
+                        line-height: 34px;
+                        a{
+                            display: block;
+ 
+                        }
+                        span{
+                           margin: 0 10px;
+                            
+                        }
+                        &:hover{
+                            a{
+                                background-color: @m-color;
+                                color: #fff;
+                                span{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                }
+             
+            }
+            .active{
+                h3{         
+                   a{
+                    color: @m-color;
+                     span{
+                        color: @m-color;
+                     }
+                   }
+                    
+                }
+                .act{
+                    a{
+                          background-color: @m-color;
+                          color: #fff;
+                          span{
+                              color: #fff;
+                          }
+                    }
+                    
+
+                }
+                .second-menu{
+                    display: block;
+                }
+            }
+        }
+       
+        
+    }
+    .content{
+        flex-grow: 1;
+        width: 300px;
+        background-color: #f5f5f5;
+        .title{
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #b0b0b0;
+            font-size: 18px;
+            color: sienna;
+            padding: 0 20px;
+            h4{
+                float: left;
+            }
+            a{
+                float: right;
+                color: sienna;
+                height: 40px;
+                i{
+                    color: sienna;
+                }
+            }
+        }
+        .summary{
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li{
+                position: relative;
+                width: 23%;
+                height: 124px;
+                background-color: @m-color;
+                border-radius: 10px;
+
+                p{ 
+                    margin:20px 0 0 10px;
+                    color: #fff;
+                }
+                .p1{
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+                .p2{
+                    margin-top: 10px;
+                    font-weight: bold;
+                }
+                .p3{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 35px;
+                    line-height: 35px;
+                    margin: 12px 0 0 0;
+                    text-align:center;
+                    background-color: rgba(0, 0,0, .1);
+                    border-radius: 0 0 10px 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
+/* 中等屏幕响应式处理*/ 
+@media screen and (max-width:991px)
+{
+    .main{
+        .content{
+            .summary{
+                li{
+                    width: 48%;
+                    margin:15px 0;
+                }
+            }
+        }
+    }
+}
+/* 超小屏幕响应式处理*/ 
+@media screen and (max-width:767px)
+{
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        //border-bottom: 1px solid #999;
+        h1{
+            display: none;
+        }
+        .m-menu{
+            display: block;
+            
+        }
+        .right{
+            a{
+                margin-right: 0;
+            }
+            a:nth-child(2){
+                display: none;
+            }
+        }
+    }
+    .main{
+        .menu-left{
+            display: none;
+            position: fixed;
+            top: 61px;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+            .first-menu{
+                padding-left: 0;
+                li{
+                    .second-menu{
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        .content{
+            margin-top: 60px;
+            .title{
+                font-size: 14px;
+            }
+            .summary{
+                li{
+                    width: 100%;
+                    height: 104px;
+                  
+                }
+            }
+        }
+    }
+    
+}

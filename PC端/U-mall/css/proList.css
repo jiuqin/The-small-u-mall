@@ -1,0 +1,559 @@
+/*头部左边*/
+
+.top .left {
+    float: left;
+}
+
+.top .left i,
+.top .right i {
+    position: absolute;
+    top: 9px;
+    display: inline-block;
+    width: 2px;
+    height: 18px;
+    margin-left: 15px;
+    background-color: #d4d4d4;
+}
+
+.top .left li,
+.top .right li {
+    float: left;
+    height: 33px;
+    margin-right: 30px;
+    color: #d4d4d4;
+}
+
+.top .last {
+    margin-right: 0;
+}
+
+
+/*头部右边*/
+
+.top .right {
+    float: right;
+}
+
+.top .right li {
+    float: left;
+}
+
+
+/*购物车图标*/
+
+.top .right a .icon-buoumaotubiao40 {
+    width: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f60;
+    margin-right: 5px;
+}
+
+
+/*字体初始就有颜色,鼠标经过变色*/
+
+.top ul li a.orange {
+    color: #f60;
+}
+
+.top .right li a:hover {
+    color: #f60;
+}
+
+.top .left li a.ch-orange:hover {
+    color: #f60;
+}
+
+
+/*头部 分两块*/
+
+.header {
+    margin-top: 35px;
+}
+
+
+/*头部 块1*/
+
+.header .block01 {
+    position: relative;
+    height: 70px;
+}
+
+
+/*头部 块1 左边logo*/
+
+.header .block01 h1 {
+    float: left;
+}
+
+.header .block01 h1 img {
+    width: 205px;
+    height: 42px;
+}
+
+
+/*头部 块1 右边搜索框*/
+
+.header .block01 .right {
+    float: left;
+    margin-left: 160px;
+}
+
+.header .search-bar {
+    position: relative;
+    width: 536px;
+    height: 36px;
+    border: 2px solid #fa6f10;
+}
+
+.header .search-bar span.icon-sousuo {
+    margin-left: 10px;
+    left: 30px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f58134;
+}
+
+.header .search-bar .msg {
+    position: absolute;
+    left: 30px;
+    line-height: 36px;
+    font-size: 12px;
+    color: #9f9f9f;
+}
+
+.header .search-bar .btn {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fa6f10;
+    padding: 0 40px;
+    line-height: 36px;
+}
+
+
+/*头部 块1 右边购物车*/
+
+.header .shopcar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid#e5e5e5;
+    text-align: center;
+}
+
+
+/*购物车图标*/
+
+.header .shopcar .icon-buoumaotubiao40 {
+    width: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #cdcdcd;
+    margin-right: 5px;
+}
+
+.header .shopcar .count {
+    position: absolute;
+    right: 3px;
+    top: -5px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50px;
+    background-color: #f36b11;
+    color: #fff;
+}
+
+
+/*头部 块2*/
+
+.header .block02 {
+    margin-top: 10px;
+}
+
+.header .block02 h2 {
+    float: left;
+    width: 180px;
+    padding-left: 20px;
+    line-height: 40px;
+    background-color: #fa6f10;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/*头部 块2 导航*/
+
+.header .block02 ul {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.header .block02 ul li {
+    position: relative;
+    height: 40px;
+    float: left;
+    padding: 0 50px 0 0;
+}
+
+.header .block02 ul li a {
+    font-size: 15px;
+    color: #333333;
+}
+
+.header .block02 ul li a:hover {
+    color: #fa6f10;
+}
+
+
+/*主体内容 -面包屑导航*/
+
+.main {
+    width: 100%;
+    border-top: 1px solid #f36b11;
+}
+
+.main .bread-nav {
+    height: 20px;
+    padding: 20px 0;
+}
+
+.main .bread-nav span {
+    display: inline-block;
+    width: 150px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: #f36b11;
+    border: 1px solid #f36b11;
+}
+
+
+/*主体内容 -大导航*/
+
+
+/*主体内容 -大导航-向右箭头、向下箭头*/
+
+.main .nav .icon-xiangyoujiantou {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+    color: #efa983;
+}
+
+.main .nav .icon-xiangxiajiantou {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #efa983;
+}
+
+
+/*主体内容 -大导航内容*/
+
+.main .nav .style1 {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ebdfd7;
+    text-align: center;
+}
+
+.main .nav .style2 {
+    border-top: none;
+}
+
+.main .nav .style1 li {
+    float: left;
+}
+
+.main .nav .style1 .first {
+    background-color: #fcf7f4;
+    width: 130px;
+    height: 50px;
+}
+
+.main .nav .style1 .more {
+    color: #bb9881;
+}
+
+.main .nav .style1 .width {
+    width: 112px;
+}
+
+.main .nav .style3 {
+    position: relative;
+    border-bottom: 1px solid #ebdfd7;
+}
+
+.main .nav .style3 .width {
+    width: 56px;
+}
+
+.main .nav .style3 .more {
+    position: absolute;
+    right: 11px;
+    top: 0;
+}
+
+
+/*主体内容 -商品信息内容*/
+
+.main .content {
+    margin-top: 25px;
+}
+
+
+/*商品信息-左侧商品推荐*/
+
+.main .content .left {
+    float: left;
+    width: 176px;
+    padding: 15px 15px;
+    border-top: 2px solid #fe8e44;
+    border-left: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.main .content .left h3 {
+    font-size: 16px;
+    color: #fe8e44;
+}
+
+.main .content .left dl {
+    margin-bottom: 20px;
+}
+
+.main .content .left dt {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.main .content .left dd {
+    height: 25px;
+    line-height: 25px;
+    color: #666666;
+    overflow: hidden;
+}
+
+.main .content .left dd i {
+    font-size: 14px;
+    color: #fe8e44;
+}
+
+.main .content .left img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+
+/*商品信息-右侧商品信息*/
+
+.main .content .right {
+    float: left;
+    width: 960px;
+    padding-left: 20px;
+}
+
+
+/*商品信息-右侧头部*/
+
+
+/*头部箭头*/
+
+.content .right .head .icon-xiangshang {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b6b6b6;
+}
+
+.content .right .head .icon-xiangxia {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main .content .right .head {
+    height: 45px;
+    width: 960px;
+    background-color: #fcf7f4;
+}
+
+.main .content .right .head-l,
+.main .content .right .head-r {
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.main .content .right .head-l p,
+.main .content .right .head-r p {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.main .content .right .head-r p {
+    border: none;
+    background-color: #fcf7f4;
+}
+
+.main .content .right .head-l .del-boder-l,
+.main .content .right .head-r .del-boder-l {
+    border-left: none;
+}
+
+.main .content .right .head-r {
+    float: right;
+}
+
+.main .content .right .head-r i {
+    color: #f36b11;
+}
+
+.main .content .right .head-r span {
+    display: inline-block;
+    width: 40px;
+    color: #b6b6b6;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+
+.main .content .right .head-r .icon-right {
+    background-color: #fff;
+}
+
+
+/*商品信息-右侧商品内容*/
+
+.main .content .right .goods {
+    margin-top: 20px;
+}
+
+.main .content .right .goods li {
+    float: left;
+    width: 196px;
+    height: 356px;
+    padding: 20px 20px;
+    border: 2px solid transparent;
+}
+
+.main .content .right .goods li:hover {
+    border: 2px solid#f36b11;
+}
+
+.main .content .right .goods dd {
+    height: 35px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.main .content .right .goods img {
+    width: 180px;
+    height: 180px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.main .content .right .goods i {
+    color: #f36b11;
+    font-size: 16px;
+}
+
+.main .content .right em {
+    color: #f36b11;
+    font-size: 12px;
+}
+
+.main .content .right em.hot {
+    color: #e74904;
+}
+
+
+/*购物车与喜欢*/
+
+.main .content .right .goods .like1 {
+    font-size: 0;
+    line-height: 0;
+}
+
+.main .content .right .goods .like1 i {
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    color: #d9d9d9;
+    padding: 0 8px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+}
+
+.main .content .right .goods .like1 span {
+    margin-right: 6px;
+}
+
+.main .content .right .goods .like1 .i2 {
+    width: 56px;
+    padding: 0 15px;
+    border-left: 1px solid transparent;
+}
+
+.main .content .right .goods .like1 i:hover {
+    border: 1px solid #e74904;
+    color: #e74904;
+}
+
+
+/*分页*/
+
+.page {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.page span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d9d9d9;
+    margin-right: 5px;
+}
+
+.page .style1 {
+    width: 75px;
+    background-color: #f6f6f6;
+}
+
+.page .style2 {
+    width: 30px;
+}
+
+.page .style2:hover {
+    border: 1px solid#f36b11;
+}
+
+.page .style3 {
+    width: 30px;
+    border: none;
+}
+
+.page .style4 {
+    border: none;
+}
+
+.page .inp input {
+    width: 50px;
+    height: 30px;
+}

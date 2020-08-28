@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+    <title>登录</title>
+    <!--兼容处理，如果可能，调取ie高版本内核-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="iconfont/icon.css">
+</head>
+
+<body>
+    <div class="form-box">
+        <i class="iconfont icon-U"></i>
+        <form action="#">
+            <h2>Login</h2>
+            <label for="user">姓名</label>
+            <!--点击laber获得input焦点，for绑定id-->
+            <input type="text" name="username" id="user">
+            <label for="email">邮箱</label>
+            <input type="email" name="email" id="email">
+            <label for="password">密码</label>
+            <input type="password" name="password" id="password">
+
+            <p>
+                <input type="checkbox" name="check" id="check">
+                <label for="check">记住密码</label>
+            </p>
+            <input type="submit" value="登录">
+            <p class="toregister">没有账号？<a href="#">去注册</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

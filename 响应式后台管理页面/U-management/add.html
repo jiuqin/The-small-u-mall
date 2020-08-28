@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+    <title>小U商城管理-添加商品</title>
+    <!--兼容处理，如果可能，调取ie高版本内核-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="iconfont/icon.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>小U商城后台管理系统</h1>
+    </div>
+    <form class="h3">
+        <h3>添加商品</h3>
+        <div class="form-group">
+            <p><i>*</i><label>商品名称：</label></p>
+            <input type="text" id="proname" name="proname">
+        </div>
+        <div class="form-group">
+            <p><i>*</i><label>简单描述</label></p>
+            <input type="text" id="" name="">
+        </div>
+        <div class="form-group">
+            <p><i>*</i><label>关键字：</label></p>
+            <input type="text" id="" name="" placeholder="请用，分隔关键字">
+        </div>
+        <div class="form-group type-group">
+            <p><i>*</i><label>产品分类:</label></p>
+            <span>
+                <input type="radio" name="type">新品发布
+            </span>
+            <span>
+                <input type="radio" name="type">限时促销
+            </span>
+            <span>
+                <input type="radio" name="type">特价处理
+            </span>
+            <input type="button" value="添加分类">
+        </div>
+        <div class="pro-price clearfix">
+            <div class="item">
+                <p><i>*</i><label>商品原价</label></p>
+                <input type="text">元
+            </div>
+            <div class="item">
+                <p><i>*</i><label>商品现价</label></p>
+                <input type="text">元
+            </div>
+            <div class="item">
+                <p><i>*</i><label>商品数量</label></p>
+                <input type="text">件
+            </div>
+        </div>
+        <div class="set-group">
+            <label>设置规格:</label>
+            <input type="text">
+            <span>如"颜色,尺寸,型号"中间以英文逗号隔开</span>
+        </div>
+        <div class="radio-group">
+            <label>是否上架</label>
+            <input type="radio" name="on">是 &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="on">否
+        </div>
+        <div class="radio-group">
+            <label>允许评论</label>
+            <input type="radio" name="dis">是 &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="dis">否
+        </div>
+        <div class="file-group">
+            <p><i>*</i><label>产品图片</label></p>
+            <input type="file">
+        </div>
+        <div class="pro-des">
+            <p><i>*</i><label>产品描述:</label></p>
+            <div><textarea></textarea></div>
+        </div>
+        <div class="footer">
+            <input type="button" value="保存并提交">
+            <input type="button" value="保存草稿">
+            <input type="button" value="取消添加">
+        </div>
+    </form>
+</body>
+
+</html>

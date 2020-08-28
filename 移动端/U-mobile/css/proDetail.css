@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+strong,
+b {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  /*去掉输入框的蓝色轮廓框*/
+}
+textarea {
+  resize: none;
+  /* 禁止用户重置元素大小 */
+  overflow: auto;
+  font-family: inherit;
+  outline: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+}
+input {
+  border-radius: 0;
+}
+input::-webkit-input-placeholder {
+  color: #666;
+  /*  默认的样式 */
+}
+input:focus::-webkit-input-placeholder {
+  color: #666;
+  /* 点击后的样式 */
+}
+body {
+  background-color: #f1f1f1;
+}
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  padding-bottom: 1.2rem;
+}
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  z-index: 999;
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #f26b11;
+}
+.header .wrap {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 0.17rem;
+  height: 0.29rem;
+}
+.header h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.header .points span {
+  display: inline-block;
+  margin-left: 0.08rem;
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.pic {
+  width: 7.5rem;
+  height: 9.5rem;
+  background-color: #fff;
+}
+.pic .img1 {
+  width: 7.5rem;
+  height: 4.2rem;
+}
+.pic .img2 {
+  width: 7.5rem;
+  height: 3.27rem;
+}
+.pic .info {
+  width: 6.8rem;
+  margin-top: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 0.3rem;
+}
+.pic .info .des {
+  margin-bottom: 0.2rem;
+}
+.pic .info .price {
+  margin-top: 0.3rem;
+  color: #e5383e;
+}
+.pic .info .price span {
+  display: inline-block;
+  margin-left: 0.15rem;
+  font-size: 0.28rem;
+  color: #878787;
+}
+.buy {
+  margin-top: 0.2rem;
+  background-color: #fff;
+  font-size: 0.25rem;
+}
+.buy .cuxiao {
+  position: relative;
+  height: 0.8rem;
+  line-height: 0.9rem;
+  margin-bottom: 0.005rem;
+  padding: 0.3rem 0.3rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.buy .cuxiao .jian {
+  display: inline-block;
+  margin-right: 0.15rem;
+  line-height: 0.32rem;
+  padding: 0 0.12rem;
+  border-radius: 0.05rem;
+  border: 1px solid #b0281a;
+  color: #b0281a;
+}
+.buy .cuxiao img {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.65rem;
+  width: 0.25rem;
+  height: 0.15rem;
+}
+.buy .count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.8rem;
+  padding: 0.3rem 0.3rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.buy .count .inp {
+  display: inline-block;
+  width: 2rem;
+  height: 0.5rem;
+  border-radius: 0.05rem;
+  border: 1px solid #f1f1f1;
+}
+.buy .count .inp i {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+}
+.buy .count .inp .border-r {
+  border-right: 1px solid #f1f1f1;
+}
+.buy .count .inp .border-l {
+  border-left: 1px solid #f1f1f1;
+}
+.buy .count .inp input {
+  width: 0.74rem;
+}
+.buy .shuxing {
+  border-bottom: none;
+  padding: 0.3rem 0 0.1rem 0.3rem;
+}
+.buy .guige {
+  height: 0.7rem;
+  padding-left: 0.3rem;
+}
+.buy .guige i {
+  color: #e1e1e3;
+}
+.buy .guige span {
+  border-radius: 0.05rem;
+  padding: 0 0.3rem;
+  background-color: skyblue;
+  color: #fff;
+}
+.buy .guige .span1 {
+  margin-left: 0.6rem;
+  background-color: #e43a3d;
+}
+.buy .guige .span2 {
+  background-color: #e1e1e3;
+}
+.produce {
+  width: 7.5rem;
+  margin-top: 0.2rem;
+  background-color: #fff;
+}
+.produce p {
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 0.3rem;
+  font-size: 0.3rem;
+}
+.produce .p1 {
+  width: 7.5rem;
+  height: 4.58rem;
+}
+.produce .p2 {
+  width: 7.5rem;
+  height: 6.48rem;
+}
+.produce .p3 {
+  width: 7.5rem;
+  height: 5.92rem;
+}
+.produce .p4 {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+.produce .p5 {
+  width: 7.5rem;
+  height: 3.31rem;
+}
+.comment {
+  padding: 0 0.3rem;
+  margin-top: 0.3rem;
+  background-color: #fff;
+  font-size: 0.3rem;
+}
+.comment .head {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.comment .user {
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.comment .user p {
+  margin-bottom: 0.2rem;
+}
+.comment .user img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.comment .user span {
+  color: #9a9a9a;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.3rem;
+  background-color: #fff;
+  color: #9a9a9a;
+  border-bottom: 1px solid #eeeeee;
+}
+.fixed-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 7.5rem;
+  height: 1.14rem;
+  background-color: #fff;
+}
+.fixed-bar .foot {
+  background-color: #fff;
+  height: 1.1rem;
+}
+.fixed-bar .foot li {
+  float: left;
+  height: 1.1rem;
+}
+.fixed-bar .foot .shopcar {
+  position: relative;
+  box-sizing: border-box;
+  width: 1.7rem;
+  height: 1.1rem;
+  padding: 0 0.2rem;
+  text-align: center;
+  padding: 0.2rem 0.3rem;
+  color: #9a9a9a;
+}
+.fixed-bar .foot .shopcar i {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.2rem;
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: #e43a3d;
+  font-size: 0.1rem;
+}
+.fixed-bar .foot .icon-qicheqianlian- {
+  font-size: 0.4rem;
+}
+.fixed-bar .foot .btn {
+  box-sizing: border-box;
+  width: 2.9rem;
+  color: #fff;
+  padding: 0.2rem 0.3rem;
+  line-height: 0.7rem;
+  text-align: center;
+  font-size: 0.3rem;
+}
+.fixed-bar .foot .btn1 {
+  background-color: #f26b11;
+}
+.fixed-bar .foot .btn2 {
+  background-color: #e43a3d;
+}

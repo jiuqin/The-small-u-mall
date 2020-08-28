@@ -1,0 +1,157 @@
+@import "reset";
+html,body{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 7.5rem;
+    margin: 0 auto;  
+    padding-bottom: 1.2rem;//处理底部固定遮挡内容
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:1.2rem;
+    padding: 0 .3rem;
+    
+    .icon-zuojiantou{
+        font-size: .3rem;
+       
+    }
+    .logo{
+       img{
+           width: 1.5rem;
+           height: .31rem;
+       }
+      
+    }
+    .points{
+        span{
+            float: left;
+            width: 0.13rem;
+            height: 0.13rem;
+            border-radius: 50%;
+            background-color:#000;
+            margin: 0 0.05rem;
+        }
+    }
+}
+.search{
+    width: 6.2rem;
+    height: .75rem;
+    line-height:.75rem;
+    border-radius: .5rem;
+    background-color: #f26b11;
+    margin: .1rem auto;
+    text-align: center;
+    font-size: .18rem;
+    img{
+        width: .28rem;
+        height: .3rem;
+        margin-left: -.2rem;
+    }
+    span{
+        display: inline-block;
+        margin-left: .25rem;
+        color: #fff;
+        
+    }
+}
+.goods{
+    height: calc(100% - 3rem);
+    margin-top: .3rem;
+    background-color: #fff;
+    padding: 0 .2rem;
+    .good{
+        box-sizing: border-box;
+        margin: .1rem 0 0 0;
+        width: 7rem;
+        padding: .2rem 0 .2rem .3rem;
+        border-bottom: 1px solid #eeeeee;
+        
+        img{
+            width:1.47rem;
+            height:1.5rem;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: left;
+            width: 4.2rem;
+            margin-left: .5rem;
+            .title{
+                line-height: .32rem;
+                font-size: .24rem;
+                margin-bottom: .25rem;
+            }
+            .title1{
+                margin-bottom: .1rem;
+            }
+            .price{
+                font-size: .22rem;
+                color: #f26b11;
+                margin-bottom: .45rem;
+                i{
+                    font-size: .18rem;
+                    margin-right: .04rem;
+                }
+            }
+            .price1{
+                margin-bottom: .25rem;
+            }
+            .count{
+                font-size: .20rem;
+                color: #949494;
+                margin-bottom: .2rem;
+            }
+        }
+        
+
+    }
+}
+.fixed-menu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.2rem;
+    .con{
+        width: 7.5rem;
+        margin: 0 auto;
+        height: 1.2rem;
+        background-color: #fff;
+        .nav{
+            font-size: .22rem;
+            width: 6.3rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: .22rem;
+            box-sizing: border-box;
+            line-height:1.8;
+            a{
+               color: #999;
+               text-align: center;
+               i{
+                   display: block;
+                   width:.58rem;
+                   height: .58rem;
+                   background-size: contain;
+                   background-repeat: no-repeat;
+               }
+               &:first-child i{
+                   background-image: url("../images/public/icon_8.jpg");
+               }
+               &:nth-child(2) i{
+                background-image: url("../images/public/icon_7.jpg");
+               }
+               &:nth-child(3) i{
+                background-image: url("../images/public/icon_5.jpg");
+                }
+            }
+        }
+    }
+
+}

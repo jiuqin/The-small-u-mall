@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+strong,
+b {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  /*去掉输入框的蓝色轮廓框*/
+}
+textarea {
+  resize: none;
+  /* 禁止用户重置元素大小 */
+  overflow: auto;
+  font-family: inherit;
+  outline: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+}
+input {
+  border-radius: 0;
+}
+input::-webkit-input-placeholder {
+  color: #666;
+  /*  默认的样式 */
+}
+input:focus::-webkit-input-placeholder {
+  color: #666;
+  /* 点击后的样式 */
+}
+.container {
+  position: relative;
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  z-index: 999;
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #f26b11;
+}
+.header .wrap {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 0.17rem;
+  height: 0.29rem;
+}
+.header h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.header .points span {
+  display: inline-block;
+  margin-left: 0.08rem;
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.fixed-nav {
+  position: fixed;
+  top: 0.88rem;
+  left: 50%;
+  margin-left: -3.75rem;
+  width: 1.64rem;
+  height: 100%;
+}
+.fixed-nav ul {
+  padding: 0.5rem 0;
+  font-size: 0.3rem;
+  height: 100%;
+}
+.fixed-nav ul li {
+  border-left: 0.08rem solid transparent;
+  margin-bottom: 0.8rem;
+  padding: 0.08rem 0 0.08rem 0.25rem;
+}
+.fixed-nav ul li:hover {
+  border-left: 0.08rem solid #f26b11;
+}
+.fixed-nav ul li:hover a {
+  color: #f26b11;
+}
+.fixed-nav ul .active {
+  border-left: 0.08rem solid #f26b11;
+}
+.fixed-nav ul .active a {
+  color: #f26b11;
+}
+.content {
+  position: absolute;
+  right: 0;
+  top: 0.88rem;
+  width: 5.85rem;
+  border-left: 1px solid #e0e0e0;
+  height: 30rem;
+}
+.content .style {
+  padding: 0.44rem 0.2rem;
+  margin-bottom: 1rem;
+}
+.content .style .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.6rem;
+  font-size: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+.content .style .pic p {
+  color: #666666;
+  margin-top: 0.2rem;
+}
+.content .style .pic img {
+  width: 1.47rem;
+  height: 1.6rem;
+}
+.content .style .pic ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}

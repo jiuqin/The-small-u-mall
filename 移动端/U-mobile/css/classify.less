@@ -1,0 +1,115 @@
+@import "reset";
+.container{
+    position: relative;
+    width: 7.5rem;
+    margin: 0 auto;
+}
+.wrap{
+    width: 7.1rem;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 999;
+    width: 7.5rem;
+    height: .88rem;
+    background-color: #f26b11;
+   .wrap{
+        height: .88rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+   img{
+       width: .17rem;
+       height: .29rem;
+   }
+   h2{
+       font-size: .36rem;
+       color: #fff;
+   }
+   .points{
+       span{
+           display: inline-block;
+           margin-left: .08rem;
+           width: .12rem;
+           height: .12rem;
+           background-color: #fff;
+           border-radius: 50%;
+        }
+   }
+}
+.fixed-nav{
+    position: fixed;
+    top: .88rem;
+    left: 50%;
+    margin-left: -3.75rem;
+    width: 1.64rem;
+    height: 100%;
+    
+    ul{
+        padding: .5rem  0;
+        font-size: .3rem;
+        height: 100%;
+
+        li{
+            border-left: .08rem solid transparent;
+            margin-bottom: .8rem;
+            padding:.08rem 0 .08rem .25rem ;
+           &:hover{
+            border-left: .08rem solid #f26b11;
+            a{
+                color: #f26b11;
+            }
+           }
+        }
+        .active{
+            border-left: .08rem solid #f26b11;
+            a{
+                color: #f26b11;
+            }
+        }
+    }
+    
+}
+.content{
+    position: absolute;
+    right: 0;
+    top:.88rem ;
+    width:5.85rem ;
+    border-left: 1px solid #e0e0e0; 
+    height: 30rem;
+   
+    .style{
+        padding: .44rem  .2rem;
+        margin-bottom: 1rem;
+        .head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: .6rem;
+            font-size: .30rem;
+            margin-bottom: .4rem;
+        }
+        .pic{
+           p{  
+               color: #666666;
+               margin-top: .2rem;
+           }
+            img{
+                width: 1.47rem;
+                height: 1.6rem;
+            }
+            ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-bottom: .3rem;
+            }
+        }
+    }
+}

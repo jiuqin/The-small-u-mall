@@ -1,0 +1,526 @@
+/*头部 块1 右边购物车*/
+
+.header .shopcar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid#e5e5e5;
+    text-align: center;
+}
+
+
+/*购物车图标*/
+
+.header .shopcar .icon-buoumaotubiao40 {
+    width: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #cdcdcd;
+    margin-right: 5px;
+}
+
+.header .shopcar .count {
+    position: absolute;
+    right: 3px;
+    top: -5px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50px;
+    background-color: #f36b11;
+    color: #fff;
+}
+
+.header .shopcar p.car2 {
+    font-size: 30px;
+}
+
+.header .shopcar p {
+    position: absolute;
+    right: 0;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid#e5e5e5;
+    background-color: skyblue;
+}
+
+
+/*主体内容 -面包屑导航*/
+
+.main {
+    width: 100%;
+    border-top: 1px solid #f36b11;
+}
+
+.main .bread-nav {
+    height: 20px;
+    padding: 20px 0;
+}
+
+
+/*产品内容-左右分*/
+
+.main .produce {}
+
+
+/*产品内容-左侧*/
+
+.main .pro-left {
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+.main .pro-left img {
+    width: 400px;
+    height: 400px;
+}
+
+.main .pro-left .pro-look {
+    margin-top: 30px;
+    height: 70px;
+}
+
+.main .pro-left .pro-look li {
+    float: left;
+}
+
+.main .pro-left .pro-look li span {
+    display: inline-block;
+    width: 25px;
+    height: 45px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.main .pro-left .pro-look img {
+    width: 62px;
+    height: 70px;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.main .pro-left .pro-look li.last {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+
+/*产品内容-右侧*/
+
+.main .pro-right {
+    float: left;
+    height: 500px;
+    padding-left: 20px;
+}
+
+
+/*产品内容-右侧-标题*/
+
+.main .pro-right h1 {
+    width: 580px;
+    height: 48px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+
+.main .pro-right h1 span {
+    display: inline-block;
+    width: 44px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #f50;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.main .pro-right h2 {
+    width: 580px;
+    height: 36px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.main .pro-right h2 i {
+    color: #f50;
+}
+
+
+/*产品内容-右侧-信息背景块*/
+
+.main .pro-right .pro-des {
+    width: 750px;
+    height: 120px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    background-color: #fef8f5;
+}
+
+.main .pro-right .pro-des p {
+    padding-top: 15px;
+}
+
+.pro-des p span {
+    display: inline-block;
+    color: #f50;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+.pro-des p i {
+    display: inline-block;
+    color: #f50;
+    margin-left: 25px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.pro-des p em {
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 12px;
+}
+
+
+/*产品内容-右侧-选择*/
+
+.main .pro-right .choice {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.main .pro-right .choice .c-l {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 16px;
+}
+
+.main .pro-right .c-r {
+    font: left;
+    margin-left: 70px;
+    width: 600px;
+}
+
+.main .pro-right .c-r span {
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    margin: 10px 5px;
+    border: 1px solid#e5e5e5;
+    color: #e5e5e5;
+}
+
+.main .pro-right .c-r span:hover {
+    border: 1px solid #f50;
+    color: #f50;
+}
+
+
+/*产品内容-右侧-购买数量*/
+
+.main .pro-right .buy {
+    margin-left: 20px;
+}
+
+.main .pro-right .buy .b-l,
+.main .pro-right .buy .b-r {
+    float: left;
+}
+
+.main .pro-right .buy .b-l {
+    margin-top: 30px;
+}
+
+.main .pro-right .buy .b-r {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.main .pro-right .buy .b-r {
+    width: 112px;
+    height: 30px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+
+.main .pro-right .buy .b-r i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: #fff;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.main .pro-right .buy .b-r input {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: #fff;
+}
+
+.main .pro-right .buy .b-r span {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 25px;
+    line-height: 30px;
+    background: #f5f5f5;
+}
+
+
+/*产品内容-右侧-按钮*/
+
+.main .pro-right .btn {
+    margin-top: 30px;
+    height: 100px;
+    margin-left: 95px;
+}
+
+.main .pro-right .btn i {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #f50;
+    border: 1px solid #f50;
+    font-size: 14px;
+}
+
+.main .pro-right .btn span {
+    margin-right: 8px;
+}
+
+.main .pro-right .btn .btn1 {
+    background-color: #f50;
+    color: #fff;
+}
+
+.main .pro-right .btn .btn2 {
+    background-color: #fef8f5;
+    color: #f50;
+}
+
+
+/*主体内容 -商品信息内容*/
+
+.main .content {
+    margin-top: 40px;
+}
+
+
+/*商品信息-左侧商品推荐*/
+
+.main .content .left {
+    float: left;
+    width: 176px;
+    padding: 15px 15px;
+    border-top: 2px solid #fe8e44;
+    border-left: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.main .content .left h3 {
+    font-size: 16px;
+    color: #fe8e44;
+}
+
+.main .content .left dl {
+    margin-bottom: 20px;
+}
+
+.main .content .left dt {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.main .content .left dd {
+    height: 25px;
+    line-height: 25px;
+    color: #666666;
+    overflow: hidden;
+}
+
+.main .content .left dd i {
+    font-size: 14px;
+    color: #fe8e44;
+}
+
+.main .content .left img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+
+/*商品信息-右侧商品信息*/
+
+.main .content .right {
+    float: left;
+    width: 960px;
+    padding-left: 20px;
+}
+
+
+/*商品信息-右侧头部*/
+
+.main .content .right .head {
+    height: 45px;
+    width: 960px;
+    border: 1px solid #e5e5e5;
+}
+
+.main .content .right .head li {
+    position: relative;
+    top: -1px;
+    float: left;
+    height: 45px;
+    line-height: 43px;
+    padding: 0 20px;
+    border: 1px solid transparent;
+    border-right: 1px solid #e5e5e5;
+}
+
+.main .content .right .head li .have-l {
+    border-right: 1px solid #e5e5e5;
+}
+
+.main .content .right .head li:hover {
+    border-top: 1px solid #fe8e44;
+    border-left: 1px solid transparent;
+    background-color: #fff;
+    color: #fe8e44;
+}
+
+.main .content .right .head .have-l i {
+    color: #fe8e44;
+}
+
+.main .content .right .head li.btn {
+    float: right;
+    height: 43px;
+    background-color: #f50;
+    border: 1px solid #f50;
+    color: #fff;
+}
+
+.main .content .right .head .btn span {
+    margin-right: 8px;
+}
+
+
+/*商品信息-商品参数*/
+
+.main .content .right .pro-info {
+    height: 220px;
+    padding: 20px 20px;
+    border-top: none;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.main .content .right .pro-info p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.main .content .right .pro-info dl {
+    float: left;
+    margin-right: 100px;
+}
+
+.main .content .right .pro-info dt,
+.main .content .right .pro-info dd {
+    margin-bottom: 15px;
+}
+
+
+/*商品信息-商品图片显示*/
+
+.main .content .right .pro-picture {}
+
+.main .content .right .pro-picture .pic-show {
+    float: left;
+    width: 810px;
+}
+
+.main .content .right .pro-picture .pic-show img {
+    width: 790px;
+}
+
+
+/*商品信息-商品侧边栏*/
+
+.main .content .right .pro-picture .aside {
+    float: left;
+    width: 150px;
+    height: 1100px;
+    background: #f6f6f6;
+}
+
+.main .content .right .pro-picture .aside ul {
+    padding-left: 40px;
+}
+
+.main .content .right .pro-picture .aside li {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.main .content .right .pro-picture .aside span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #dadada;
+}
+
+.main .content .right .pro-picture .aside .active a {
+    color: #f6660f;
+}
+
+.main .content .right .pro-picture .aside .active span {
+    background-color: #f6660f;
+}
+
+.main .content .right .pro-picture .aside li:hover a {
+    color: #f6660f;
+}
+
+.main .content .right .pro-picture .aside li:hover span {
+    background-color: #f6660f;
+}
+
+.main .content .right .pro-picture .aside li:hover a {
+    color: #f6660f;
+}
+
+
+/*页脚*/
+
+.foot {
+    margin-top: 30px;
+}

@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+strong,
+b {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  /*去掉输入框的蓝色轮廓框*/
+}
+textarea {
+  resize: none;
+  /* 禁止用户重置元素大小 */
+  overflow: auto;
+  font-family: inherit;
+  outline: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+}
+input {
+  border-radius: 0;
+}
+input::-webkit-input-placeholder {
+  color: #666;
+  /*  默认的样式 */
+}
+input:focus::-webkit-input-placeholder {
+  color: #666;
+  /* 点击后的样式 */
+}
+html,
+body {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 7.5rem;
+  margin: 0 auto;
+  padding-bottom: 1.2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.2rem;
+  padding: 0 0.3rem;
+}
+.header .icon-zuojiantou {
+  font-size: 0.3rem;
+}
+.header .logo img {
+  width: 1.5rem;
+  height: 0.31rem;
+}
+.header .points span {
+  float: left;
+  width: 0.13rem;
+  height: 0.13rem;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0 0.05rem;
+}
+.search {
+  width: 6.2rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #f26b11;
+  margin: 0.1rem auto;
+  text-align: center;
+  font-size: 0.18rem;
+}
+.search img {
+  width: 0.28rem;
+  height: 0.3rem;
+  margin-left: -0.2rem;
+}
+.search span {
+  display: inline-block;
+  margin-left: 0.25rem;
+  color: #fff;
+}
+.goods {
+  height: calc(100% - 3rem);
+  margin-top: 0.3rem;
+  background-color: #fff;
+  padding: 0 0.2rem;
+}
+.goods .good {
+  box-sizing: border-box;
+  margin: 0.1rem 0 0 0;
+  width: 7rem;
+  padding: 0.2rem 0 0.2rem 0.3rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.goods .good img {
+  width: 1.47rem;
+  height: 1.5rem;
+}
+.goods .good .left {
+  float: left;
+}
+.goods .good .right {
+  float: left;
+  width: 4.2rem;
+  margin-left: 0.5rem;
+}
+.goods .good .right .title {
+  line-height: 0.32rem;
+  font-size: 0.24rem;
+  margin-bottom: 0.25rem;
+}
+.goods .good .right .title1 {
+  margin-bottom: 0.1rem;
+}
+.goods .good .right .price {
+  font-size: 0.22rem;
+  color: #f26b11;
+  margin-bottom: 0.45rem;
+}
+.goods .good .right .price i {
+  font-size: 0.18rem;
+  margin-right: 0.04rem;
+}
+.goods .good .right .price1 {
+  margin-bottom: 0.25rem;
+}
+.goods .good .right .count {
+  font-size: 0.2rem;
+  color: #949494;
+  margin-bottom: 0.2rem;
+}
+.fixed-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.2rem;
+}
+.fixed-menu .con {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  background-color: #fff;
+}
+.fixed-menu .con .nav {
+  font-size: 0.22rem;
+  width: 6.3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.22rem;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+.fixed-menu .con .nav a {
+  color: #999;
+  text-align: center;
+}
+.fixed-menu .con .nav a i {
+  display: block;
+  width: 0.58rem;
+  height: 0.58rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.fixed-menu .con .nav a:first-child i {
+  background-image: url("../images/public/icon_8.jpg");
+}
+.fixed-menu .con .nav a:nth-child(2) i {
+  background-image: url("../images/public/icon_7.jpg");
+}
+.fixed-menu .con .nav a:nth-child(3) i {
+  background-image: url("../images/public/icon_5.jpg");
+}

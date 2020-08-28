@@ -1,0 +1,339 @@
+.header .block01 h1 {
+    float: left;
+}
+
+.header .block01 .title {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #666666;
+    border-left: 1px solid #f5f5f5;
+}
+
+
+/*进度条*/
+
+.header .block01 .progress-bar {
+    float: right;
+}
+
+.header .block01 .progress-bar li {
+    float: left;
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.header .block01 .progress-bar li span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px solid #ffcbab;
+}
+
+.header .block01 .progress-bar li span i {
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 70px;
+    border-radius: 50%;
+    background-color: #ffcbab;
+    text-align: center;
+    color: #fff;
+}
+
+.header .block01 .progress-bar .two span {
+    border-bottom: 2px solid #f36b11;
+}
+
+.header .block01 .progress-bar .two span i {
+    background-color: #f36b11;
+}
+
+.header .block01 .progress-bar .three span {
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header .block01 .progress-bar .three span i {
+    background-color: #e0e0e0;
+}
+
+.header .block01 .progress-bar p.color1 {
+    color: #ffcbab;
+}
+
+.header .block01 .progress-bar p.color2 {
+    color: #f36b11;
+}
+
+.header .block01 .progress-bar p.color3 {
+    color: #e0e0e0;
+}
+
+
+/*主体内容-头部*/
+
+.main .nav {
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e5e5e5;
+    background: #f5f5f5;
+}
+
+.main .nav li {
+    float: left;
+}
+
+.main .content .con img {
+    width: 70px;
+    height: 70px;
+}
+
+.main .nav .l1 {
+    position: relative;
+    width: 250px;
+    padding-left: 38px;
+}
+
+.main .nav .l1 input {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid#e5e5e5;
+}
+
+.main .nav .l2 {
+    width: 350px;
+}
+
+.main .nav .l3,
+.main .nav .l4,
+.main .nav .l5 {
+    width: 150px;
+}
+
+
+/*勾选*/
+
+.main .content .con .l12 input {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+
+
+/*主体内容-商品信息*/
+
+.main .content .con {
+    position: relative;
+    height: 80px;
+    padding: 20px 0 10px 40px;
+}
+
+.main .content .active {
+    background-color: #fef9f6;
+}
+
+.main .content .con li {
+    float: left;
+}
+
+
+/*商品信息区*/
+
+.main .content .con .l12 {
+    width: 590px;
+}
+
+.main .content .con .l12 img {
+    float: left;
+}
+
+.main .content .con .l12 dl {
+    float: left;
+    margin-left: 10px;
+}
+
+.main .content .con .l12 dt {
+    width: 480px;
+    height: 54px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.main .content .con .l33,
+.main .content .con .l44,
+.main .content .con .l55 {
+    width: 150px;
+}
+
+
+/*购买数量区*/
+
+.main .content .con .l44 {
+    width: 102px;
+    height: 30px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-right: 40px;
+}
+
+.main .content .con .l44 i {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: #fff;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.main .content .con .l44 input {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: #fff;
+}
+
+.main .content .con .l44 span {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 25px;
+    line-height: 30px;
+    background: #f5f5f5;
+}
+
+
+/*小计区*/
+
+.main .content .con .l55 {
+    color: #f36b11;
+    font-size: 22px;
+}
+
+.main .content .con .l66 {
+    width: 110px;
+    line-height: 18px;
+}
+
+
+/*操作区*/
+
+.main .content .con .l66 em {
+    color: #f36b11;
+}
+
+
+/* 主体内容 价格合计*/
+
+.main .buy {
+    position: relative;
+    margin-top: 40px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #f9f9f9;
+}
+
+.main .buy input {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+
+.main .buy .left {
+    height: 100px;
+    float: left;
+}
+
+.main .buy .left li {
+    float: left;
+    margin: 0 20px 0;
+}
+
+.main .buy .left li.orange {
+    color: #f36b11;
+}
+
+.main .buy .right {
+    position: relative;
+    margin-right: 50px;
+    width: 220px;
+    height: 100px;
+    float: right;
+}
+
+.main .buy .right i {
+    color: #f36b11;
+}
+
+.main .buy .right li .p1 {
+    position: absolute;
+    left: 92px;
+    top: 25px;
+}
+
+.main .buy .right li .p2 {
+    position: absolute;
+    left: 92px;
+    top: 45px;
+}
+
+.main .buy .right li .p2 i {
+    font-size: 18px;
+    color: #f36b11;
+}
+
+
+/*按钮*/
+
+.main .btn {
+    position: relative;
+    height: 100px;
+    font-size: 18px;
+}
+
+.main .btn .btn1 {
+    position: absolute;
+    right: 210px;
+    top: 20px;
+    width: 180px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid#f36b11;
+    text-align: center;
+    color: #f36b11;
+}
+
+.main .btn .btn2 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 180px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid#f36b11;
+    background-color: #f36b11;
+    text-align: center;
+    color: #fff;
+}

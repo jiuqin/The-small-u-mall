@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+strong,
+b {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  /*去掉输入框的蓝色轮廓框*/
+}
+textarea {
+  resize: none;
+  /* 禁止用户重置元素大小 */
+  overflow: auto;
+  font-family: inherit;
+  outline: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+}
+input {
+  border-radius: 0;
+}
+input::-webkit-input-placeholder {
+  color: #666;
+  /*  默认的样式 */
+}
+input:focus::-webkit-input-placeholder {
+  color: #666;
+  /* 点击后的样式 */
+}
+.container {
+  position: relative;
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -3.75rem;
+  z-index: 999;
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #f26b11;
+}
+.header .wrap {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 0.17rem;
+  height: 0.29rem;
+}
+.header h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+.header .points span {
+  display: inline-block;
+  margin-left: 0.08rem;
+  width: 0.12rem;
+  height: 0.12rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.content {
+  margin-top: 0.88rem;
+}
+.user {
+  position: relative;
+  width: 100%;
+  height: 1.8rem;
+  background-color: #f26b11;
+}
+.user .touxiang {
+  position: relative;
+  padding: 0.1rem 0.2rem;
+  float: left;
+}
+.user .touxiang .pic {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: url("../images/1.jpg");
+  background-size: contain;
+}
+.user .touxiang .name {
+  position: absolute;
+  left: 2rem;
+  top: 0.6rem;
+  width: 0.8rem;
+  height: 0.5rem;
+}
+.user .touxiang .name .p1 {
+  margin-bottom: 0.1rem;
+  color: #fff;
+  font-size: 0.25rem;
+}
+.user .touxiang .name .p2 {
+  font-size: 0.25rem;
+  font-style: oblique;
+}
+.user .qiandao {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.6rem;
+  padding: 0.1rem 0.2rem;
+  float: right;
+  color: #f26b11;
+  font-size: 0.3rem;
+  background-color: #fff;
+  border-radius: 0.05rem;
+}
+.nav {
+  background-color: #fff;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.4rem;
+  color: #999;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.nav .iconfont {
+  font-size: 0.35rem;
+}
+.nav p {
+  margin-top: 0.1rem;
+}
+.space {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f1f1f1;
+}
+.list {
+  margin-top: 0.2rem;
+  background-color: #fff;
+  color: #999;
+}
+.list .com {
+  position: relative;
+  padding: 0.1rem 0.2rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #d8d8d8;
+}
+.list .com span {
+  margin-right: 0.2rem;
+}
+.list .com .iconfont {
+  font-size: 0.35rem;
+}
+.list .com .icon-xiangyoujiantou {
+  position: absolute;
+  right: 0;
+  top: 0.15rem;
+}
+.list .com .icon-color {
+  color: #f26b11;
+}
+.list .com .count {
+  margin-left: 3.2rem;
+  color: #f26b11;
+}
+.fixed-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.2rem;
+}
+.fixed-menu .con {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  background-color: #fff;
+}
+.fixed-menu .con .nav {
+  font-size: 0.22rem;
+  width: 6.3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.22rem;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+.fixed-menu .con .nav a {
+  color: #999;
+  text-align: center;
+}
+.fixed-menu .con .nav a i {
+  display: block;
+  width: 0.58rem;
+  height: 0.58rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.fixed-menu .con .nav a:first-child i {
+  background-image: url("../images/public/icon_8.jpg");
+}
+.fixed-menu .con .nav a:nth-child(2) i {
+  background-image: url("../images/public/icon_7.jpg");
+}
+.fixed-menu .con .nav a:nth-child(3) i {
+  background-image: url("../images/public/icon_10.jpg");
+}

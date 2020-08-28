@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  font-family: "宋体", "微软雅黑", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+strong,
+b {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+td {
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  /*去掉输入框的蓝色轮廓框*/
+}
+textarea {
+  resize: none;
+  /* 禁止用户重置元素大小 */
+  overflow: auto;
+  font-family: inherit;
+  outline: none;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input {
+  border-radius: 0;
+}
+input::-webkit-input-placeholder {
+  color: #666;
+  /*  默认的样式 */
+}
+input:focus::-webkit-input-placeholder {
+  color: #666;
+  /* 点击后的样式 */
+}
+body {
+  background-color: #f1f1f1;
+}
+.header {
+  line-height: 70px;
+  background-color: #e9967a;
+  color: #fff;
+}
+.header h1 {
+  font-size: 36px;
+  margin-left: 50px;
+}
+form {
+  padding: 30px;
+  font-size: 16px;
+}
+form h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+form .form-group {
+  margin-bottom: 25px;
+}
+form .form-group i {
+  color: red;
+  margin-right: 10px;
+  font-style: italic;
+}
+form .form-group p {
+  display: inline-block;
+  width: 100px;
+}
+form .form-group input {
+  height: 30px;
+  width: 60%;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+form .type-group span {
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+  padding: 0px 10px;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+form .type-group input {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+form .type-group input[type=button] {
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  padding: 0;
+  background-color: #e9967a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+form .pro-price .item {
+  float: left;
+  width: 33.33%;
+}
+form .pro-price .item p i {
+  color: red;
+  font-style: italic;
+  margin-right: 10px;
+}
+form .pro-price .item input {
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid #e0e0e0;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+form .set-group {
+  margin-top: 30px;
+}
+form .set-group label {
+  display: inline-block;
+  width: 115px;
+}
+form .set-group input {
+  height: 30px;
+  border: 1px solid #e0e0e0;
+  width: 60%;
+  padding-left: 20px;
+}
+form .set-group span {
+  font-size: 12px ;
+}
+form .radio-group {
+  margin-top: 30px;
+}
+form .radio-group label {
+  width: 115px;
+  display: inline-block;
+}
+form .radio-group input {
+  width: 18px;
+  height: 18px;
+  vertical-align: -2px;
+}
+form .file-group {
+  margin-top: 30px;
+}
+form .file-group p {
+  display: inline-block;
+}
+form .file-group i {
+  color: red;
+  margin-right: 10px;
+  font-style: italic;
+}
+form .file-group input {
+  height: 30px;
+  width: 60%;
+  box-sizing: border-box;
+}
+form .pro-des {
+  margin-top: 20px;
+  display: flex;
+}
+form .pro-des p {
+  display: inline;
+}
+form .pro-des i {
+  color: red;
+  margin-right: 10px;
+  font-style: italic;
+}
+form .pro-des label {
+  display: inline-block;
+  width: 100px;
+}
+form .pro-des div {
+  flex-grow: 1;
+}
+form .pro-des div textarea {
+  width: 100%;
+  height: 200px;
+}
+form .footer {
+  text-align: center;
+  margin-top: 30px;
+}
+form .footer input {
+  line-height: 30px;
+  padding: 0 10px;
+  color: #fff;
+  margin: 0 20px;
+}
+form .footer input:nth-child(1) {
+  background-color: lightgreen;
+}
+form .footer input:nth-child(2) {
+  background-color: lightsalmon;
+}
+form .footer input:nth-child(3) {
+  background-color: #e0e0e0;
+}
+@media screen and (max-width: 767px) {
+  .header {
+    line-height: 40px;
+  }
+  .header h1 {
+    font-size: 18px;
+  }
+  form .form-group input {
+    display: block;
+    width: 85%;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  form .type-group p {
+    display: block;
+  }
+  form .type-group span {
+    margin-top: 10px;
+    width: 44%;
+    margin-right: 5%;
+    box-sizing: border-box;
+  }
+  form .type-group span input {
+    display: inline-block;
+    margin-top: 0;
+    width: 18px;
+    vertical-align: -2px;
+  }
+  form .type-group input[type=button] {
+    display: inline-block;
+    margin-left: 0;
+  }
+  form .pro-price .item {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  form .pro-price .item input {
+    width: 83%;
+  }
+  form .set-group input {
+    display: block;
+    margin: 10px 0;
+    width: 80%;
+  }
+  form .radio-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  form .file-group p {
+    display: block;
+    margin-bottom: 10px;
+  }
+  form .pro-des {
+    flex-wrap: wrap;
+  }
+  form .pro-des p {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  form .pro-des div textarea {
+    width: 85%;
+  }
+}
